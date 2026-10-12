@@ -1,0 +1,38 @@
+.checkout-container{
+        border: 1px solid black;
+        display: grid;
+        grid-template-rows: 40px  minmax(100px,65vh) 40px;
+        gap: 20px;
+        padding: 10px 10px;
+        border-radius:10px ;
+
+        .scan { 
+        
+        }
+        .cart {
+            border: 1px solid black;
+          
+            overflow: scroll;
+            scrollbar-width: none;
+
+            .cart-items {
+                display: grid;
+                grid-auto-rows: 50px;
+                gap: 10px;
+                padding: 5px;
+            }
+            .cart-item {
+                border: 1px solid black;  
+                border-radius: 5px;
+            }
+        }
+        .checkout-btn{
+    
+        }
+
+        .scan, .cart , .checkout-btn {
+            border-radius: 5px;
+            border: none;
+            border: 1px solid black;
+        }
+    }
